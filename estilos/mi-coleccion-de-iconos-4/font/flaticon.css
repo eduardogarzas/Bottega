@@ -1,0 +1,45 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/10/2020 19:57
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-instagram:before { content: "\f100"; }
+.flaticon-email:before { content: "\f101"; }
+.flaticon-tripadvisor:before { content: "\f102"; padding:.5em;color: white}
+.flaticon-yelp:before { content: "\f103";color: white; }
+.flaticon-pin:before { content: "\f104"; }
+.flaticon-facebook:before { content: "\f105"; }
+.flaticon-instagram-1:before { content: "\f106"; }
+.flaticon-logotipo-social-de-twitter:before { content: "\f107"; }
+.flaticon-whatsapp:before { content: "\f108";padding:.5em;color: white}
+.flaticon-llamada:before { content: "\f109";padding:.5em; color: white}
+.flaticon-barra-de-menus:before { content: "\f10a"; font-size:2em;color: white; }
+.flaticon-carrito-de-compras:before { content: "\f10b"; }
+.flaticon-cerca:before { content: "\f10c"; ; font-size:1.5em ;color: white}

@@ -1,0 +1,218 @@
+@charset "UTF-8";
+@font-face {src:url("Tipografias/blair-itc-medium.ttf");font-family:blair;}
+*{
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box}
+
+body,
+	htm{font-size: 16px;
+margin:auto;
+max-width:1920px;
+min-width: 320px;
+}
+#in{margin-bottom: 1em}
+
+a{text-decoration: none; text-align: center;maegin-left:0;}
+h1{text-align: center;font-size: 3em;font-family: blair; color: #787020 }
+
+h2{text-align: center;font-size: 2em;font-family: blair; color: #787020}
+
+
+h3{text-align: center;font-size:16px; font-family: blair;}
+p {font-family: calibri}
+.titulos{text-align: left;padding-left:.5em}
+ul li {list-style: none;margin-left:0}
+ul {padding-left:.5em}
+
+a img {
+	width: 7em;
+}
+header{
+	background-color:#787020;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+	height:10vh; 
+	width: 100%; 
+	top:0 ;
+	z-index:1000;
+	padding:3px;
+font-size: 16px}
+
+header ul{
+	padding-right: 40px;
+	padding-left: 400px;
+margin-top: 10px;
+	font-size: 16px;}
+
+nav{
+	background-color:#787020;
+	position:fixed;
+	top:0%;
+	right:-90%;
+	width: 50%;
+	height: 100vh;
+	z-index: 5;
+}
+
+#menu{display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+font-family: blair;}
+
+#menu li{;color:white;font-size:16px;margin-left: 1em;}
+
+.bannerinferior{
+	width: 100%;
+	padding-top: 0%;
+	margin-top: 0%;
+	background-size: contain}
+
+.bannersuperior{
+	width: 100%;
+	padding-top: 0%;
+	margin-top: 0%;
+	background-size: contain}
+
+
+main{
+	 background-image:url("../fotos_pagina/fondo final.png");background-size: cover;background-repeat: no-repeat;background-position: right; background-attachment: fixed}
+
+
+footer{
+	background-color: #787020;
+	color:white;
+	margin:auto;
+	width:100%; 
+	bottom:0;
+	z-index:1000;
+	padding:3px; 
+	margin-top:0px;
+	font-size: 16px;
+	
+max-width:1920px;
+	min-width: 320px}
+a{color:white}
+
+#listabloques {display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+	text-align:center; 
+	 }
+
+#listabloques li{width: 100%}
+
+
+#redes{padding:0px; margin:0px; background-color:#787020; flex-basis: 100%; margin-top:0;}
+
+#listaredes{display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;}
+
+#listaredes li {
+	margin-right: 1em; 
+	margin-left: 1em;
+margin-top:1em;}
+
+#terminos li{margin-right: 1em; 
+	margin-left: 1em;
+margin-top:1em;}
+
+#terminos{display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;}
+
+#usoterminos{display: flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content:space-around;}
+
+#facturacion {display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;}
+
+.sinVineta{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#cali{display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+#interlomas{margin-bottom: 1em}
+#cali li {margin-right: 1em; margin-left: 1em;}
+
+href{color:white}
+
+
+@-webkit-keyframes op{
+	from{opacity:0;}
+	to{opacity:1}
+}
+
+@keyframes op{
+	from{opacity:0;}
+	to{opacity:4}
+}
+
+	@media screen and (min-width:320px){
+	}
+#menu li {font-size:24px; justify-content: space-between;
+}
+
+	@media screen and (min-width:768px){
+		#listabloques li{width:33%}
+		
+		#menu {flex-direction: row; padding: 1em}
+		
+		#nuestraesencia {width: 100%;
+			display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+		}
+	#abrir,#cerrar{
+	display:none;
+	}
+	nav{
+	background-color: transparent;
+	position:static;
+	padding-top: 0;
+	width: auto;
+	height: auto;
+	}
+
+
+		
+	}
+	@media screen and (min-width:1440px){
+	}
+#experiencia{display: row}
